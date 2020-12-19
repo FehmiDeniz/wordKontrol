@@ -53,5 +53,5 @@ def RaporaEkle(sonuc):
 
     f.close()
 
-    print("Asama uc tamamlandi...✓")
-    print("Word Raporu Olusturuldu...✓")
+    print("Asama uc tamamlandi...")
+    print("Word Raporu Olusturuldu...")
