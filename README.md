@@ -54,9 +54,13 @@ Henüz herhangi bir sorunla karşılaşmadık.
 ## Arayüz
 
 ![Kullanıcı Arayüzü](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim1.png?raw=true)
+
 ![Komut Ekranı Arayüzü 1](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim3.png?raw=true)
+
 ![Komut Ekranı Arayüzü 2](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim2.png?raw=true)
+
 ![Rapor Dosyası](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim4.png?raw=true)
+
 
 ## Ekip
 
