@@ -9,11 +9,14 @@ from Data import girisbolum
 from Data import dosyaac
 root = tk.Tk()
 root.title('Word Kontrol')
+root.geometry("200x100")
+root.eval('tk::PlaceWindow . center')
+root.resizable(False, False)
 
 
 
 dosyaac.Clear_Console()
-print("            Lütfen kayıtlı bir word dosyası seçin.")
+print("            Lütfen bir word dosyası seçin.")
 print("                      _________________")
 print("                     | | ___________ |o|")
 print("                     | | ___________ | |")
@@ -30,8 +33,9 @@ print("                     |____|_______|____|")
 def browsefunc():
     
     
-    root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Tez Dosyasını Seçin",filetypes = (("Word dosyaları",".docx"),("Tüm Dosyalar",".*")))
-    ent1.insert(tk.END, root.filename)
+    root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Word Dosyasını Seçin",filetypes = (("Word dosyaları",".docx"),("Tüm Dosyalar",".*")))
+    label1.config(text='{}'.format(os.path.basename(root.filename)))
+    b1.config(text="Yeniden Seç")
     dosyaac.Clear_Console()
     #print (root.filename)
     dosyayol=root.filename
@@ -42,10 +46,15 @@ def browsefunc():
     #os.startfile('WordRapor.docx')
     filename='WordRapor.docx'
     dosyaac.Open_file(filename)
-ent1=tk.Entry(root,font=40)
-ent1.grid(row=2,column=2)
-b1=tk.Button(root,text="Dosya Seçin",font=40,command=browsefunc)
-b1.grid(row=2,column=4)
+
+
+b1=tk.Button(root,text="Dosya Seç",font=40,command=browsefunc)
+spaceLabel = tk.Label(root, text= "                     ")
+label1 = tk.Label(root, text= "Lütfen bir word dosyası seçin.")
+spaceLabel.pack()
+label1.pack()
+b1.pack()
+
 
 
 root.mainloop()
