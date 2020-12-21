@@ -53,7 +53,9 @@ Henüz herhangi bir sorunla karşılaşmadık.
 
 ## Arayüz
 
-![Kullanıcı Arayüzü](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim1.png?raw=true)
+![Kullanıcı Arayüzü 1](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim%201.png?raw=true)
+
+![Kullanıcı Arayüzü 2](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim%201.1.png?raw=true)
 
 ![Komut Ekranı Arayüzü 1](https://github.com/kemalsanli/wordKontrol/blob/main/G%C3%B6rseller/Resim3.png?raw=true)
 
@@ -69,7 +71,7 @@ Projeyi oluşturan ekip.
  Kemal SANLI  
  [@kemalsanli](https://github.com/kemalsanli)
 
- Doğukan Kurnaz  
+ Doğukan KURNAZ  
  [@dogukankurnaz](https://github.com/dogukankurnaz)
 
  Fatih ULUDAĞ  
@@ -81,7 +83,8 @@ Projeyi oluşturan ekip.
 
 ## Sürüm Geçmişi
 
-
+* 1.1
+    * Yeni arayüz.
 * 1.0
     * Yayınlandı.
 
