@@ -45,5 +45,5 @@ def RaporaEkle(sonuc):
     document.save('WordRapor.docx')
 
     f.close()
-    print("Asama iki tamamlandi...✓")
-    print("islem Word Raporuna eklendi...✓")
+    print("Asama iki tamamlandi...")
+    print("islem Word Raporuna eklendi...")

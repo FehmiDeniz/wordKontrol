@@ -59,6 +59,6 @@ def RaporOlustur(degisgen):
     print("            ╠═╝├┬┘│ ││ ┬├┬┘├─┤││││  ├─┤│││├─┤   ║║││  │  ├┤ ├┬┘│")
     print("            ╩  ┴└─└─┘└─┘┴└─┴ ┴┴ ┴┴─┘┴ ┴┴ ┴┴ ┴  ═╩╝┴┴─┘┴─┘└─┘┴└─┴")
         
-    print("Asama Bir Tamamlandi...✓")
-    print("islem Word Raporuna eklendi....✓")
+    print("Asama Bir Tamamlandi...")
+    print("islem Word Raporuna eklendi....")
     
