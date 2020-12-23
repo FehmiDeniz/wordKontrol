@@ -95,4 +95,4 @@ Pull Requestlere her zaman açığız.
 [python-docx](https://github.com/python-openxml/python-docx)
 
 ## Lisans
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/kemalsanli/wordKontrol/blob/main/LICENSE)
